@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-if [ ! -e /.ssh ]; then
-  ssh-keygen -t rsa -b 4096 -N ''
+if [ ! -e .ssh ]; then
+  ssh-keygen -t rsa -b 4096 -N '' -f .ssh/id_rsa
 fi
 
-/ssh-chat
+./ssh-chat -i $PWD/.ssh/id_rsa
