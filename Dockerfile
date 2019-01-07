@@ -7,6 +7,5 @@ RUN apt-get install openssh-server -y -q
 RUN wget -q http://files.casmacc.plus/sshchat/ssh-chat1.7 -O ssh-chat
 COPY script/ssh-chat.sh ssh-chat.sh
 RUN chmod a+rx ssh-chat*
-RUN mkdir -p .ssh
 
-# CMD ssh-chat1.7
+# CMD ./ssh-chat.sh
