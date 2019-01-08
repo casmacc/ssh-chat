@@ -45,10 +45,9 @@ listening on a separate port.
           - "9001:2022"
         restart: unless-stopped
     
-Then on terminal 1:
+Then:
 
-    $ ssh <server> -p 9000
-
-and on terminal 2:
-
-    $ ssh <server> -p 9001
+    TERMINAL1> ssh <server> -p 9000
+    TERMINAL2> ssh <server> -p 9000
+    TERMINAL3> ssh <server> -p 9001
+    TERMINAL4> ssh <server> -p 9001
