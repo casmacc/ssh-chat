@@ -1,12 +1,6 @@
 # ssh-chat
 
-SSH-CHAT server.
-
-See https://github.com/shazow/ssh-chat
-
-## About
-
-ssh-chat exposed on port 2022.
+SSH-CHAT server.  See https://github.com/shazow/ssh-chat to learn more.
 
 ## Demo Server
 
@@ -16,7 +10,7 @@ ssh-chat exposed on port 2022.
 
     $ docker build . -t casmacc/ssh-chat
 
-## Running Server
+## Running 
 
     $ docker run -p 2022:2022 casmacc/ssh-chat
 
