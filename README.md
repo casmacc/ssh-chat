@@ -1,10 +1,11 @@
 # ssh-chat
 
-SSH-Chat server.  See [shazow's ssh-chat repo][1] to learn more.
+SSH-Chat server in a Docker container.  See [shazow's ssh-chat repo][1] to
+learn more about SSH-Chat.
 
 [1]: https://github.com/shazow/ssh-chat
 
-## Demo Server
+## Demo 
 
 Type this command into your terminal:
 
@@ -26,8 +27,8 @@ Type this command into your terminal:
 
 ## With Docker Compose
 
-It is possible to start many instances of `ssh-chat` servers on one host, each
-listening on a separate port. 
+It is possible to start many `ssh-chat` containers on a host, each listening on
+a separate port. 
 
     version: '3'
 
