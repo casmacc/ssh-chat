@@ -65,7 +65,8 @@ created, and your SSH clients will complain.  To avoid this annoyance, either:
 1) do not destroy the container - use `start/stop` instead.  - OR -
 2) save the .ssh directory in a volume, to make the keys persistent
 
+For 2), here's the relevant snippet for your docker-compose file:
+
     volumes:
       - ./volumes/ssh:/root/.ssh
 
-Happy chatting!
