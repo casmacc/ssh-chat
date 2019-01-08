@@ -2,9 +2,9 @@
 # - ssh-ken generation is done by the `ssh-chat.sh` script
 # - ssh-chat binary is available on http://files.casmacc.plus
 
-LABEL maintainer="andy@r210.com"
-
 FROM ubuntu:18.04
+
+LABEL maintainer="andy@r210.com"
 
 WORKDIR /root
 RUN apt-get update

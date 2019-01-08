@@ -66,4 +66,3 @@ created, and your SSH clients will complain.  To avoid this annoyance, either:
     volume:
       - ./volume/ssh:/root/.ssh
 
-
