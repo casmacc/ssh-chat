@@ -9,7 +9,7 @@ learn more about SSH-Chat.
 
 Type this command into your terminal:
 
-    $ ssh casmacc.plus -p 9000
+    $ ssh casmacc.net -p 9000
 
 ## Building the ssh-chat image
 
